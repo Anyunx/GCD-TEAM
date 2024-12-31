@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contactanos</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <div class="bebe">
+                <h2 class="logotipo">GCD&nbsp;<span>TEAM</span></h2>
+                <h3 class="logo">soporte tecnico</h3>
+                <div class="raya"></div>
+            </div>
+            <nav>
+                <a href="../index.html" class="Activo">Home</a>
+                <a href="../Servicios/Services.html" class="Activo">Servicios</a>
+                <a href="../Portafolio/Portafolio.html" class="Activo">Portafolio</a>
+                <a href="../Nosotros/Nosotros.html" class="Activo">Nosotros</a>
+                <a href="../Equipo/Equipo.html" class="Activo">Equipo</a>
+                <a href="#" class="Unique">Contactanos</a>
+            </nav>
+            <div class="menu-hamburguesa" id="menu-hamburguesa">
+                <span class="linea"></span>
+                <span class="linea"></span>
+                <span class="linea"></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="banner">
+            <h2 class="titulo">Contactanos</h2>
+        </div>
+    </main>
+
+    <script>
+        // JavaScript para abrir/cerrar el menú hamburguesa
+        const menuHamburguesa = document.getElementById('menu-hamburguesa');
+        const nav = document.querySelector('header nav');
+
+        menuHamburguesa.addEventListener('click', () => {
+            nav.classList.toggle('activo');
+            menuHamburguesa.classList.toggle('activo');
+        });
+    </script>
+    <div class="container">
+        <form class="formulario">
+
+
+            <div class="input-group">
+
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Nombre">
+
+                <label form="phone">Telefono</label>
+                <input type="tel" name="phone" id="phone" placeholder="Telefono">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+
+                <label for="message">Mensaje</label>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+
+                <div class="form-text">
+                    <a href="#">Politicas de privacidad</a>
+                    <a href="#">Terminos y condiciones</a>
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                </div>
+
+                <input class="btn" type="submit" value="Enviar">
+            </div>
+        </form>
+         <img class="contact" src="img/depositphotos_226405696-stock-photo-businessman-blurred-background-using-thin.jpg" alt="">
+    </div>
+    
+</body>
+</html>
