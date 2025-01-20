@@ -157,19 +157,6 @@ img {
     color: var(--fondo);
 }
 
-#book {
-    height: 5vw;
-    margin-top: 5%;
-}
-
-#schedule {
-    margin-top: -4%;
-}
-
-#gear {
-    margin-top: -5%;
-}
-
 .title {
     margin: auto;
     text-align: center;
@@ -220,16 +207,6 @@ img {
     margin-left: 7%;
     display: inline-block;
     transform: translate(0vw, 3.6vw);
-}
-
-#icon {
-    height: 5vw;
-    transform: translate(12vw, -3.3vw);
-}
-
-#icon1 {
-    height: 5vw;
-    transform: translate(-16.5vw, -3.3vw);
 }
 
 .space {
@@ -283,15 +260,9 @@ img {
     border: 5px solid var(--rojo);
 }
 
-.raya {
-    border: 1px solid #59aad6;
-    width: 19vw;
-    transform: translate(4.9vw, -1.7vw);
-}
-
 .bebe {
     max-width: 30%;
-    height: 6.2vw;
+    height: 4.5vw;
 }
 
 h3 {
@@ -309,67 +280,7 @@ nav {
     margin-top: 12vh;
 }
 
-#icon22, #icon {
-    background-color: var(--rojo);
-    border-radius: 0px 25px 25px 0px;
-    padding: 8px;
-}
 
-.text3 {
-    width: 23vw;
-    word-wrap: break-word;
-    color: var(--rojo);
-    background-color: var(--fondo);
-    padding: 0.73vw;
-    transform: translate(-0.8vw, 1.18vw);
-    border-radius: 25px 0px 0px 25px;
-}
-
-#icon11 {
-    height: 5vw;
-    transform: translate(-16.5vw, -3.8vw);
-}
-
-#icon22 {
-    transform: translate(12vw, -3.8vw);
-    height: 5vw;
-}
-
-.text3-icon {
-    width: 23vw;
-    word-wrap: break-word;
-    color: var(--rojo);
-    background-color: var(--fondo);
-    padding: 1.60vw;
-    transform: translate(-0.8vw, 1.69vw);
-    border-radius: 25px 0px 0px 25px;
-}
-
-.text4-icon {
-    width: 23vw;
-    word-wrap: break-word;
-    color: var(--rojo);
-    background-color: var(--fondo);
-    padding: 1.60vw;
-    transform: translate(-0.8vw, 1.69vw);
-    border-radius: 25px 0px 0px 25px;
-}
-
-.text5-icon {
-    width: 23vw;
-    word-wrap: break-word;
-    color: var(--rojo);
-    background-color: var(--fondo);
-    padding: 1.61vw;
-    transform: translate(-0.8vw, 1.69vw);
-    border-radius: 25px 0px 0px 25px;
-}
-
-#icon11, #icon1 {
-    background-color: var(--rojo);
-    border-radius: 25px 0px 0px 25px;
-    padding: 8px;
-}
 
 .text7-icon {
     width: 23vw;

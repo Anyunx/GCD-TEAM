@@ -324,16 +324,10 @@ header {
         background-color: var(--terciario);
         border: 5px solid var(--rojo);
     }
-
-      .raya {
-        border: 1px solid #59aad6;
-        width: 19vw;
-        transform: translate( 4.9vw, -1.7vw);
-      }
       
       .bebe {
         max-width: 30%;
-        height: 6.2vw;
+        height: 4.5vw;
       }
 
       h3 {
@@ -345,10 +339,6 @@ header {
 
       nav {
         max-width: 70%;
-      }
-      
-      .container-cards {
-        margin-top: 12vh;
       }
 
       #icon22,#icon {
