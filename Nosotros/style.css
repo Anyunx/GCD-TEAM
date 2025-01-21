@@ -280,8 +280,6 @@ nav {
     margin-top: 12vh;
 }
 
-
-
 .text7-icon {
     width: 23vw;
     word-wrap: break-word;
@@ -308,65 +306,10 @@ nav {
     font-size: 35px;
 }
 
-/* Media Queries */
-@media screen and (max-width: 1024px) {
-    .titulo {
-        font-size: 30px;
-    }
-
-    .logotipo {
-        font-size: 28px;
-    }
-
-    .text2, .text, .contenido, .title-1 {
-        font-size: 1.6vw;
-    }
-
-    .About-card {
-        width: 50%;
-        height: auto;
-    }
-
-    img {
-        height: 12vw;
-    }
-
-    .cards {
-        width: 100%;
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .titulo {
-        font-size: 28px;
-    }
-
-    .logotipo {
-        font-size: 24px;
-    }
-
-    .text2, .text, .contenido, .title-1 {
-        font-size: 2.5vw;
-    }
-
-    .About-card {
-        width: 80%;
-        height: auto;
-    }
-
-    img {
-        height: 18vw;
-    }
-
-    .cards {
-        width: 100%;
-        flex-direction: column;
-    }
-}
-
 @media screen and (max-width: 480px) {
-    .titulo {
+
+    
+    .title {
         font-size: 24px;
     }
 
@@ -391,21 +334,22 @@ nav {
         width: 100%;
         flex-direction: column;
     }
-}
 
-@media screen and (max-width: 768px) {
-    .titulo {
-        font-size: 25px;  /* Tamaño de fuente más pequeño para dispositivos medianos */
-        transform: translate(0, -300px);  /* Ajuste de la posición en pantallas medianas */
-        text-align: center;  /* Asegura que se centre el texto */
-        width: 100%;  /* Asegura que el contenedor ocupe todo el ancho */
+    @media screen and (max-width: 480px) {
+        .titulo {
+            font-size: 20px;  /* Tamaño de fuente aún más pequeño para dispositivos móviles pequeños */
+            transform: translate(0, -200px);  /* Ajusta la posición vertical del título */
+            text-align: center;  /* Asegura que se centre el texto */
+            width: 100%;  /* Asegura que el contenedor ocupe todo el ancho */
+        }
     }
 }
 
+
 @media screen and (max-width: 480px) {
     .titulo {
-        font-size: 20px;  /* Tamaño de fuente aún más pequeño para dispositivos móviles pequeños */
-        transform: translate(0, -200px);  /* Ajusta la posición vertical del título */
+        font-size: 28px;  /* Tamaño de fuente aún más pequeño para dispositivos móviles pequeños */
+        transform: translate(0, -110px);  /* Ajusta la posición vertical del título */
         text-align: center;  /* Asegura que se centre el texto */
         width: 100%;  /* Asegura que el contenedor ocupe todo el ancho */
     }

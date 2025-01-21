@@ -428,3 +428,47 @@ header {
         width: 440px; /* Ajusta el ancho que necesites */
         font-size: 35px;
     }
+
+    @media screen and (max-width: 480px) {
+        .titulo {
+            font-size: 28px;  /* Tamaño de fuente aún más pequeño para dispositivos móviles pequeños */
+            transform: translate(0, -110px);  /* Ajusta la posición vertical del título */
+            text-align: center;  /* Asegura que se centre el texto */
+            width: 100%;  /* Asegura que el contenedor ocupe todo el ancho */
+        }
+
+        .icon1,img {
+            display: none;
+        }
+
+        .title-1 {
+            font-size: 23px;
+        }   
+
+        .text2 {
+            font-size: 15px;
+        }
+
+        .text6-icon,.text7-icon, .text5-icon, .text4-icon,.text3-icon, .text3 {
+            border-radius:25px 25px 25px 25px;
+            font-size: 11px;
+            margin-bottom: 15px;
+        }
+
+        .contenido {
+            transform: translate(135px, -10px);  /* Ajusta la posición vertical del título */
+        }
+
+        .space {
+            transform: translate(15px, -10px);  /* Ajusta la posición vertical del título */
+        }
+
+        .information4 {
+            transform: translate(-30px, 30px);  /* Ajusta la posición vertical del título */
+        }
+
+        .contenido1 {
+            transform: translate(135px, -10px);  /* Ajusta la posición vertical del título */ 
+        }
+
+    }

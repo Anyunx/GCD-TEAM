@@ -107,7 +107,6 @@ header nav a {
     color: var(--rojo);
 }
 
-
 .titulo {
     transform: translate(610px, -450px);
     width: 440px; /* Ajusta el ancho que necesites */
