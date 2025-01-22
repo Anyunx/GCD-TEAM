@@ -90,10 +90,6 @@ header nav a {
     transition: 1s;
 }
 
-.Unique:hover {
-    background-color: var(--fondo);
-    color: var(--segundario);
-}
 
 .titulo {
     transform: translate(610px, -450px);
@@ -249,9 +245,27 @@ nav {
         align-items: center;
     }
     
-
+    .logotipo1 {
+        display: none;
+    }
 
     @media(max-width:991px) {
+
+        .Activo {
+            padding: 13px 19px 13px 19px;
+            background-color: var(--segundario);
+            border-radius: 25px;
+            font:icon;
+            color: var(--fondo);
+            margin-right: 100px;
+            font-weight: 600;
+            transition: 1s;
+        }
+        
+        .Activo:hover {
+            background-color: var(--fondo);
+            color: var(--segundario);
+        }
 
         form {
             padding: 50px 30px;
@@ -368,6 +382,9 @@ nav {
         color: var(--segundario);
     }
     
+    .form-texts {
+        color: var(--fondo);
+    }
 
     .logotipo {
         font-size: 30px !important;
@@ -386,7 +403,6 @@ nav {
     }
 
     .menu {
-        display: ;
         position: fixed;
         top: 0;
         left: 0;

@@ -89,19 +89,19 @@ header nav a {
 }
 
 .Unique {
-    padding: 13px 19px;
-    background-color: var(--rojo);
+    padding: 13px 19px 13px 19px;
     border-radius: 25px;
-    font: icon;
-    color: var(--fondo);
+    font:icon;
+    color: var(--rojo);
     margin-right: 100px;
     font-weight: 600;
-    transition: 1s;
 }
 
-.Unique:hover {
-    background-color: var(--fondo);
-    color: var(--rojo);
+#bar-4 {
+    border-radius: 25px;
+    padding: 13px 14px 13px 14px;
+    color: var(--fondo);
+    background-color: var(--rojo);
 }
 
 .information {
@@ -306,7 +306,25 @@ nav {
     font-size: 35px;
 }
 
+.logotipo1 {
+    display: none;
+}
 @media screen and (max-width: 480px) {
+    .Activo {
+        padding: 13px 19px 13px 19px;
+        background-color: var(--segundario);
+        border-radius: 25px;
+        font:icon;
+        color: var(--fondo);
+        margin-right: 100px;
+        font-weight: 600;
+        transition: 1s;
+    }
+    
+    .Activo:hover {
+        background-color: var(--fondo);
+        color: var(--segundario);
+    }
 
     
     .title {
@@ -427,7 +445,6 @@ nav {
     }
 
     .menu {
-        display: ;
         position: fixed;
         top: 0;
         left: 0;

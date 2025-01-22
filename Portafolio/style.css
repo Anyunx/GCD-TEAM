@@ -93,18 +93,18 @@ header nav a {
 
 .Unique {
     padding: 13px 19px 13px 19px;
-    background-color: var(--rojo);
     border-radius: 25px;
     font:icon;
-    color: var(--fondo);
+    color: var(--rojo);
     margin-right: 100px;
     font-weight: 600;
-    transition: 1s;
 }
 
-.Unique:hover {
-    background-color: var(--fondo);
-    color: var(--rojo);
+#bar-3 {
+    border-radius: 25px;
+    padding: 13px 14px 13px 14px;
+    color: var(--fondo);
+    background-color: var(--rojo);
 }
 
 .titulo {
@@ -176,7 +176,27 @@ header {
         font-size: 35px;
     }
 
+    .logotipo1 {
+        display: none;
+    }
+
     @media screen and (max-width: 480px) {
+        .Activo {
+            padding: 13px 19px 13px 19px;
+            background-color: var(--segundario);
+            border-radius: 25px;
+            font:icon;
+            color: var(--fondo);
+            margin-right: 100px;
+            font-weight: 600;
+            transition: 1s;
+        }
+        
+        .Activo:hover {
+            background-color: var(--fondo);
+            color: var(--segundario);
+        }
+
         .titulo {
             font-size: 28px;  /* Tamaño de fuente aún más pequeño para dispositivos móviles pequeños */
             transform: translate(0, -110px);  /* Ajusta la posición vertical del título */
@@ -275,7 +295,6 @@ header {
         }
 
         .menu {
-            display: ;
             position: fixed;
             top: 0;
             left: 0;

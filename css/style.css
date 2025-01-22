@@ -71,7 +71,7 @@ header nav a {
 }
 
 .Activo:hover {
-    color:#91bbec
+    color: black
 }
 
 .logotipo1 {
@@ -124,21 +124,20 @@ header nav a {
     transform: translate(-370px, -110px);
 }
 
-
 .Unique {
     padding: 13px 19px 13px 19px;
-    background-color: var(--segundario);
     border-radius: 25px;
     font:icon;
-    color: var(--fondo);
+    color: var(--segundario);
     margin-right: 100px;
     font-weight: 600;
-    transition: 1s;
 }
 
-.Unique:hover {
-    background-color: var(--fondo);
-    color: var(--segundario);
+#bar-1 {
+    border-radius: 25px;
+    padding: 13px 14px 13px 14px;
+    color: var(--fondo);
+    background-color: var(--segundario);
 }
 
 .information {
@@ -463,6 +462,22 @@ header {
 
 
     @media screen and (max-width: 480px) {
+        .Activo {
+            padding: 13px 19px 13px 19px;
+            background-color: var(--segundario);
+            border-radius: 25px;
+            font:icon;
+            color: var(--fondo);
+            margin-right: 100px;
+            font-weight: 600;
+            transition: 1s;
+        }
+        
+        .Activo:hover {
+            background-color: var(--fondo);
+            color: var(--segundario);
+        }
+
         #bar-1 {
             position: absolute;
             top: 7%;
@@ -471,31 +486,31 @@ header {
 
         #bar-2 {
             position: absolute;
-            top: 13%;
+            top: 15%;
             left: 20%;
         }
 
         #bar-3 {
             position: absolute;
-            top: 19%;
+            top: 23%;
             left: 18.5%;
         }
 
         #bar-4 {
             position: absolute;
-            top: 25%;
+            top: 31%;
             left: 19%;
         }
 
         #bar-5 {
             position: absolute;
-            top: 31%;
+            top: 39%;
             left: 22%;
         }
 
         #bar-6 {
             position: absolute;
-            top: 37%;
+            top: 47%;
             left: 13%;
         }
 
@@ -529,11 +544,10 @@ header {
             font-family: "Bebas Neue", sans-serif;
             font-weight: 900;
             font-style: normal;
-            display: flex
+            display: flex;
         }
 
         .menu {
-            display: ;
             position: fixed;
             top: 0;
             left: 0;

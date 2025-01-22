@@ -62,7 +62,8 @@ header nav a {
 }
 
 .Activo:hover {
-    color:#91bbec
+    color:var(--terciario);
+
 }
 
 /*Banner*/
@@ -93,18 +94,19 @@ header nav a {
 
 .Unique {
     padding: 13px 19px 13px 19px;
-    background-color: var(--rojo);
     border-radius: 25px;
     font:icon;
-    color: var(--fondo);
+    color: var(--rojo);
     margin-right: 100px;
     font-weight: 600;
     transition: 1s;
 }
 
-.Unique:hover {
-    background-color: var(--fondo);
-    color: var(--rojo);
+#bar-2 {
+    border-radius: 25px;
+    padding: 13px 14px 13px 14px;
+    color: var(--fondo);
+    background-color: var(--rojo);
 }
 
 .information {
@@ -330,6 +332,10 @@ header {
         height: 4.5vw;
       }
 
+      .logotipo1 {
+        display: none;
+      }
+
       h3 {
         margin-left: 9.5vw;
         color: var(--rojo);
@@ -430,6 +436,7 @@ header {
     }
 
     @media screen and (max-width: 480px) {
+        
         .titulo {
             font-size: 28px;  /* Tamaño de fuente aún más pequeño para dispositivos móviles pequeños */
             transform: translate(0, -110px);  /* Ajusta la posición vertical del título */
@@ -528,7 +535,6 @@ header {
         }
 
         .menu {
-            display: ;
             position: fixed;
             top: 0;
             left: 0;
