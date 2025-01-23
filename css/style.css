@@ -71,7 +71,11 @@ header nav a {
 }
 
 .Activo:hover {
-    color: black
+    color: var(--terciario);
+}
+
+.Unique:hover {
+    color: var(--terciario);
 }
 
 .logotipo1 {
@@ -125,11 +129,8 @@ header nav a {
 }
 
 .Unique {
-    padding: 13px 19px 13px 19px;
-    border-radius: 25px;
-    font:icon;
     color: var(--segundario);
-    margin-right: 100px;
+    margin-right: 9vw;
     font-weight: 600;
 }
 
@@ -460,58 +461,62 @@ header {
         border-radius: 0px 25px 25px 0px;
     }
 
+    .footer-copy {
+        padding: 25px;
+        text-align: center;
+    }
+    
+    .footer-copy p {
+        font-size: 16px;
+        margin: 0;
+    }
+    
+    .footer-copy {
+        background-color: var(--fondo);
+        padding: 15px 10px;
+        text-align: center;
+        color: var(--segundario);
+        border-radius: 25px 25px 0 0;
+        margin-top: 2%;
+    }
 
-    @media screen and (max-width: 480px) {
-        .Activo {
-            padding: 13px 19px 13px 19px;
-            background-color: var(--segundario);
-            border-radius: 25px;
-            font:icon;
-            color: var(--fondo);
-            margin-right: 100px;
-            font-weight: 600;
-            transition: 1s;
-        }
-        
-        .Activo:hover {
-            background-color: var(--fondo);
-            color: var(--segundario);
-        }
+
+    @media screen and (max-width: 991px) {
 
         #bar-1 {
             position: absolute;
-            top: 7%;
-            left: 28%;
+            top: 10%;
+            left: 30%;
         }
 
         #bar-2 {
             position: absolute;
-            top: 15%;
+            top: 18%;
             left: 20%;
         }
 
         #bar-3 {
             position: absolute;
-            top: 23%;
+            top: 26%;
             left: 18.5%;
         }
 
         #bar-4 {
             position: absolute;
-            top: 31%;
+            top: 34%;
             left: 19%;
         }
 
         #bar-5 {
             position: absolute;
-            top: 39%;
-            left: 22%;
+            top: 42%;
+            left: 23%;
         }
 
         #bar-6 {
             position: absolute;
-            top: 47%;
-            left: 13%;
+            top: 50%;
+            left: 12%;
         }
 
         a {

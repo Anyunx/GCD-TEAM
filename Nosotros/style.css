@@ -61,7 +61,11 @@ header nav a {
 }
 
 .Activo:hover {
-    color: #91bbec;
+    color: var(--terciario);
+}
+
+.Unique:hover {
+    color: var(--terciario);
 }
 
 /* Banner */
@@ -89,11 +93,8 @@ header nav a {
 }
 
 .Unique {
-    padding: 13px 19px 13px 19px;
-    border-radius: 25px;
-    font:icon;
     color: var(--rojo);
-    margin-right: 100px;
+    margin-right: 9vw;
     font-weight: 600;
 }
 
@@ -310,22 +311,41 @@ nav {
     display: none;
 }
 @media screen and (max-width: 480px) {
-    .Activo {
-        padding: 13px 19px 13px 19px;
-        background-color: var(--segundario);
-        border-radius: 25px;
-        font:icon;
-        color: var(--fondo);
-        margin-right: 100px;
-        font-weight: 600;
-        transition: 1s;
-    }
-    
-    .Activo:hover {
-        background-color: var(--fondo);
-        color: var(--segundario);
+    #bar-1 {
+        position: absolute;
+        top: 10%;
+        left: 28%;
     }
 
+    #bar-2 {
+        position: absolute;
+        top: 18%;
+        left: 20%;
+    }
+
+    #bar-3 {
+        position: absolute;
+        top: 26%;
+        left: 18.5%;
+    }
+
+    #bar-4 {
+        position: absolute;
+        top: 34%;
+        left: 21%;
+    }
+
+    #bar-5 {
+        position: absolute;
+        top: 42%;
+        left: 23%;
+    }
+
+    #bar-6 {
+        position: absolute;
+        top: 50%;
+        left: 12%;
+    }
     
     .title {
         font-size: 24px;
@@ -353,62 +373,12 @@ nav {
         flex-direction: column;
     }
 
-    @media screen and (max-width: 480px) {
-        .titulo {
-            font-size: 20px;  /* Tamaño de fuente aún más pequeño para dispositivos móviles pequeños */
-            transform: translate(0, -200px);  /* Ajusta la posición vertical del título */
-            text-align: center;  /* Asegura que se centre el texto */
-            width: 100%;  /* Asegura que el contenedor ocupe todo el ancho */
-        }
-    }
-}
 
-
-@media screen and (max-width: 480px) {
     .titulo {
         font-size: 28px;  /* Tamaño de fuente aún más pequeño para dispositivos móviles pequeños */
         transform: translate(0, -110px);  /* Ajusta la posición vertical del título */
         text-align: center;  /* Asegura que se centre el texto */
         width: 100%;  /* Asegura que el contenedor ocupe todo el ancho */
-    }
-}
-
-
-@media screen and (max-width: 480px) {
-    #bar-1 {
-        position: absolute;
-        top: 7%;
-        left: 28%;
-    }
-
-    #bar-2 {
-        position: absolute;
-        top: 13%;
-        left: 20%;
-    }
-
-    #bar-3 {
-        position: absolute;
-        top: 19%;
-        left: 18.5%;
-    }
-
-    #bar-4 {
-        position: absolute;
-        top: 25%;
-        left: 19%;
-    }
-
-    #bar-5 {
-        position: absolute;
-        top: 31%;
-        left: 22%;
-    }
-
-    #bar-6 {
-        position: absolute;
-        top: 37%;
-        left: 13%;
     }
 
     a {
@@ -538,11 +508,6 @@ nav {
         justify-content: center;
         align-items: center;
     }
-
-}
-
-@media screen and (max-width: 480px) {
-
 
     .title {
         font-size: 24px;
